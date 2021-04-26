@@ -4,17 +4,14 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
 
   :root {
-    --red: #E52E4D;
-    --blue: #5429DC;
-    --green: #33CC95;
-
-    --blue-light: #6933FF;
-
-    --text-title: #363F5F;
-    --text-body: #969CB3;
-
-    --background: #F0F2F5;
-    --shape: #FFFFFF;
+    --red: #e52e4d;
+    --blue: #5429cc;
+    --blue-light: #6933ff;
+    --green: #33cc95;
+    --shape: #ffffff;
+    --text-title: #363f5f;
+    --text-body: #969cb3;
+    --background: #f0f2f5;
   }
 
   * {
@@ -88,7 +85,7 @@ export const GlobalStyle = createGlobalStyle`
     transition: filter 0.2s;
 
     &:hover {
-      filter: brightness(0.75)
+      filter: brightness(0.8)
     }
   }
 `;
